@@ -110,13 +110,12 @@ class _LogState extends State<Log> {
                 ),
               ),
             ),
-
             SizedBox(height: 20,),
 
             ClipRRect(
-              borderRadius: BorderRadius.vertical(),
+              borderRadius: BorderRadius.circular(500),
               child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsmsJfOACE0EFcsBVuFb-obb_ByZgeIOZa9w&usqp=CAU',
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
               ),
             ),
           ],
