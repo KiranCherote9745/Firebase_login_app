@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'signup.dart';
 import 'login.dart';
 class Wel extends StatefulWidget {
   const Wel({super.key});
@@ -82,7 +83,13 @@ class _WelState extends State<Wel> {
             Padding(
               padding: const EdgeInsets.all(15),
               child: GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Sign()
+                    ),
+                  );
+                },
                 child: Container(
                   height: 50,
                   width: 120,

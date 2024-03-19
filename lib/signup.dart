@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'welcome.dart';
 import 'login.dart';
 
 class Sign extends StatefulWidget {
@@ -125,6 +126,31 @@ class _SignState extends State<Sign> {
                     style: TextStyle(
                       color: Colors.indigo,
                       fontSize: 25,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Wel()),
+                );
+              },
+              child: Container(
+                height: 50,
+                width: 500,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: Colors.lightGreenAccent,
+                ),
+                child: Center(
+                  child: Text('Navigate to Home',
+                    style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 15,
                     ),
                   ),
                 ),
