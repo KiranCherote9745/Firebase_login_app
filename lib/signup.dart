@@ -147,7 +147,7 @@ class _SignState extends State<Sign> {
                   color: Colors.lightGreenAccent,
                 ),
                 child: Center(
-                  child: Text('Navigate to Home',
+                  child: Text('Home',
                     style: TextStyle(
                       color: Colors.red,
                       fontSize: 15,
