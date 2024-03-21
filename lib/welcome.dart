@@ -18,7 +18,6 @@ class _WelState extends State<Wel> {
         body: Column(
           children: [
             SizedBox(height:50),
-            
             //TEXT
             Center(
               child: Container(
@@ -42,7 +41,17 @@ class _WelState extends State<Wel> {
               ),),
 
             SizedBox(height: 50,),
+            
+            // asset image
+            // Image.asset('images/loginimage.jpeg',fit: BoxFit.fill,),
 
+
+            // // asset image
+            // Image.asset('images/loginimage.jpeg'),
+
+            SizedBox(height: 50,),
+
+            // network image
             ClipRRect(
              borderRadius: BorderRadius.circular(500),
               child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsmsJfOACE0EFcsBVuFb-obb_ByZgeIOZa9w&usqp=CAU',
