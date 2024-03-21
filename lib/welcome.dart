@@ -41,7 +41,7 @@ class _WelState extends State<Wel> {
               ),),
 
             SizedBox(height: 50,),
-            
+
             // asset image
             // Image.asset('images/loginimage.jpeg',fit: BoxFit.fill,),
 
